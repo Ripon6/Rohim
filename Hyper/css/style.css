@@ -1,0 +1,77 @@
+ /* common style */
+html,body{margin:0; padding:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+ul{margin:0;padding:0}
+header,nav,article,section,aside,footer{display:block; overflow:hidden}
+
+ /*container */
+#container{
+	width:800px;
+	margin:0px auto;
+	display:block;
+}
+
+/* Top header */
+header {
+	background:none repeat scroll 0 0 #ccc;
+	padding:15px 20px;
+}
+header h1{
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+}
+/*manu*/
+nav{
+	background-color: #c1c1c1;
+	list-style:outside none none;
+	width:100%;
+}
+nav ul li {
+	display:inline;
+}
+nav ul li a{
+	color:blue;
+	text-decoration:none;
+	padding:10px 20px;
+	float:left;
+	border-right:2px solid #c3c3c3;
+}
+
+ /* sidebar */
+aside{
+	float:right;
+	background-color:#ddd;
+	width:300px;
+	padding-bottom:20px;
+	min-height:397px;
+}
+h3{
+	padding:10px;
+	font-weight:normal;
+}
+ img{
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+article{
+	padding:20px;
+	font-size:18px;
+	line-height:23px;
+	text-align:justify;
+	margin:10px;
+	
+}
+
+/*contant*/
+section{
+	background-color:#c9c9c9;
+}
+hr{
+	color:#fff;
+}
+/*footer*/
+footer{
+	background-color:#bfbfbf;
+	padding:0px 15px;
+}
